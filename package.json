@@ -1,0 +1,18 @@
+{
+  "name": "javascript-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot em JavaScript com discord.js v14 e Slash Commands (/ping)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["discord", "bot", "discordjs", "slash-commands", "ping"],
+  "author": "jjuniornoc-rgb",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "dotenv": "^16.4.7"
+  }
+}
